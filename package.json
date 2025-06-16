@@ -2,6 +2,10 @@
   "name": "cambridge-quizlet",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "fetch": "bun run src/fetch.ts",
+    "convert": "bun run src/convert.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
